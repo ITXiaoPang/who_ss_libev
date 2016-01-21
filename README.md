@@ -27,15 +27,21 @@ Copy to path:
 ------
 # What's new?
 
-The latest version of wss is v0.2.
+The latest version of wss is v0.3.
 
 Below are the release notes for each version.
+
+##v0.3
+###IMPROVEMENTS
+None
+###FIXED
+Fix a spelling mistakes in README.md.
 
 ##v0.2
 ###IMPROVEMENTS
 None
 ###FIXED
-Fixed an issue of duplicate  devices statistics
+Fixed an issue of duplicate  devices statistics.
 
 ##v0.1
 ###IMPROVEMENTS
