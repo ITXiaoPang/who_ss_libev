@@ -2,5 +2,5 @@
 myip=$(hostname -i)
 ps -ef|grep ss-server|grep -v grep|awk '{print $12}'|while read myport
 do
-  echo $(netstat -nat|grep ESTABLISHED|grep $myip:$myport|awk '{print $5}'|awk  'BEGIN{FS=":"} {print $1}'|uniq|wc -l) $myport
+  echo $(netstat -nat|grep ESTABLISHED|grep $myip:$myport|awk '{print $5}'|awk  'BEGIN{FS=":"} {print $1}'|sort|uniq|wc -l) $myport
 done
