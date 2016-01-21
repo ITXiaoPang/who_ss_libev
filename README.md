@@ -21,7 +21,7 @@ Add exec permission
 
 Copy to path:
 
-`cp -a wss/usr/bin `
+`cp -a wss /usr/bin `
 
 ## Enjoy it
 ------
